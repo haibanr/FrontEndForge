@@ -5,7 +5,7 @@
 
 FrontEndForge adalah platform coding workspace berbasis web tanpa konfigurasi (*zero-setup*) yang dirancang khusus untuk membantu *frontend learners* melompati hambatan instalasi lingkungan lokal (*local environment*). Platform ini mengintegrasikan editor kode canggih dengan fitur inspeksi elemen instan untuk mempercepat proses pembelajaran dan meningkatkan keterampilan teknis secara praktis.
 
-🚀 **[Live Demo Link]** | 📂 **[Pitch Deck/Documentation Link]**
+<img width="587" height="272" alt="image" src="https://github.com/user-attachments/assets/5f35f141-3c9b-4240-9146-1a9c4a26f075" />
 
 ---
 
