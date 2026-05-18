@@ -5,7 +5,9 @@
 
 FrontEndForge adalah platform coding workspace berbasis web tanpa konfigurasi (*zero-setup*) yang dirancang khusus untuk membantu *frontend learners* melompati hambatan instalasi lingkungan lokal (*local environment*). Platform ini mengintegrasikan editor kode canggih dengan fitur inspeksi elemen instan untuk mempercepat proses pembelajaran dan meningkatkan keterampilan teknis secara praktis.
 
-<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/5f35f141-3c9b-4240-9146-1a9c4a26f075" />
+<div align="center">
+<img width="405" height="248" alt="image" src="https://github.com/user-attachments/assets/88f7f6ec-c3c4-4342-a43d-bedfed4a1668" />
+</div>
 
 ---
 
@@ -17,7 +19,10 @@ Berikut adalah panduan langkah demi langkah cara menggunakan fitur interaktif di
 Untuk memulai, pengguna tidak perlu bingung harus menulis apa dari awal. Platform menyediakan berbagai kurasi proyek terpandu untuk meningkatkan skill.
 
 <!-- 📸 TEMPAT SCREENSHOT 1: Taruh gambar daftar menu template proyek atau modal pilihan preset di sini -->
-!<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/5623e6e4-aa0a-401e-ba2c-f8e593497c64" />
+<div align="center">
+<img width="329" height="233" alt="image" src="https://github.com/user-attachments/assets/2fa1cfb9-2730-42d9-87e0-c95fb56c8fbf" />
+</div>
+
 
 *   **Cara Menggunakan:**
     1. Klik tombol **"Templates"** atau **"Projects"** pada top bar/sidebar.
@@ -28,7 +33,9 @@ Untuk memulai, pengguna tidak perlu bingung harus menulis apa dari awal. Platfor
 Setelah proyek dimuat, pengguna bisa langsung fokus mengeksplorasi dan memodifikasi kode melalui editor kelas profesional.
 
 <!-- 📸 TEMPAT SCREENSHOT 2: Taruh gambar fokus pada teks editor saat menampilkan fitur autocompletion / sintaks warna di sini -->
-<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/9afa7f7e-e050-42dc-b018-8595253d3af6" />
+<div align="center">
+<img width="632" height="275" alt="image" src="https://github.com/user-attachments/assets/9e357618-06f9-4525-b7ca-9b247aac068b" />
+</div>
 
 *   **Cara Menggunakan:**
     1. Pilih tab file (`index.html`, `style.css`, atau `script.js`) di atas editor untuk berpindah konteks.
@@ -39,7 +46,9 @@ Setelah proyek dimuat, pengguna bisa langsung fokus mengeksplorasi dan memodifik
 Jika pengguna ingin tahu baris kode mana yang menghasilkan elemen visual tertentu pada hasil render, mereka dapat menggunakan fitur andalan ini.
 
 <!-- 📸 TEMPAT SCREENSHOT 3: Taruh GIF/Gambar yang menunjukkan kursor mengklik tombol "Inspect", lalu mengarah ke preview -->
-<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/2540d196-e8b3-49e5-b744-68f64fd57f2f" />
+<div align="center">
+<img width="273" height="271" alt="image" src="https://github.com/user-attachments/assets/a4008618-1596-43d4-8f66-f41e0313cb5f" />
+</div>
 
 
 *   **Cara Menggunakan:**
@@ -51,7 +60,9 @@ Jika pengguna ingin tahu baris kode mana yang menghasilkan elemen visual tertent
 ### 4. Memantau Output via Console Log (Virtual Console Log Panel)
 Untuk mempermudah proses pelacakan variabel dan pesan error dari JavaScript, platform ini menyediakan panel log khusus yang tertanam langsung di dalam UI aplikasi.
 
-<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/aa9ef5a0-07bc-4dc0-bba5-bfcb7419ad30" />
+<div align="center">
+<img width="579" height="244" alt="image" src="https://github.com/user-attachments/assets/a9c62f3c-1c9a-45aa-bf15-ecc0db0f0039" />
+</div>
 
 
 *   **Cara Menggunakan:**
