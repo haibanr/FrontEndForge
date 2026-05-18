@@ -9,33 +9,54 @@ FrontEndForge adalah platform coding workspace berbasis web tanpa konfigurasi (*
 
 ---
 
-## 📺 Demo & Fitur Utama (Core Features)
+## 📺 Alur Penggunaan & Demo Fitur Utama
 
-Berikut adalah panduan visual dan fungsionalitas utama dari platform FrontEndForge:
+Berikut adalah panduan langkah demi langkah cara menggunakan fitur interaktif di FrontEndForge untuk memaksimalkan proses pembelajaran:
 
-### 1. Workspace Tanpa Konfigurasi (Zero-Setup Workspace)
-Pengguna dapat langsung menulis kode HTML5, CSS3, dan JavaScript (ES6) melalui struktur tab file yang dinamis tanpa perlu melakukan konfigurasi lingkungan lokal (*local environment*) terlebih dahulu.
+### 1. Memilih Proyek Terpandu (Guided Learning Projects)
+Untuk memulai, pengguna tidak perlu bingung harus menulis apa dari awal. Platform menyediakan berbagai kurasi proyek terpandu untuk meningkatkan skill.
 
-<!-- 📸 TEMPAT SCREENSHOT 1: Taruh gambar/GIF tampilan utama aplikasi lengkap dengan tab file editor dan hasil render preview di sini -->
-![Zero-Setup Workspace](https://placehold.co/800x450/2d3748/ffffff?text=Screenshot+Tampilan+Utama+Workspace)
+<!-- 📸 TEMPAT SCREENSHOT 1: Taruh gambar daftar menu template proyek atau modal pilihan preset di sini -->
+![Guided Learning Projects](https://placehold.co/800x450/2d3748/ffffff?text=Screenshot+Pilihan+Proyek+Terpandu)
 
-*   **Informasi Penting:** Menyediakan preset proyek siap pakai (starter templates) untuk memotong waktu persiapan awal bagi para pelajar pemula.
+*   **Cara Menggunakan:**
+    1. Klik tombol **"Templates"** atau **"Projects"** pada top bar/sidebar.
+    2. Pilih salah satu studi kasus proyek yang tersedia (misal: *Landing Page, Calculator, atau Todo App*).
+    3. Struktur file HTML, CSS, dan JS yang berisi boilerplate khusus akan langsung dimuat ke dalam editor secara otomatis.
 
-### 2. Integrasi Monaco Editor (Advanced Monaco Editor Integration)
-Mengintegrasikan mesin teks editor yang bertenaga guna menghadirkan pengalaman pengembangan kelas profesional langsung di dalam *browser*.
+### 2. Eksplorasi Editor Tanpa Hambatan (Zero-Setup Workspace & Auto-complete)
+Setelah proyek dimuat, pengguna bisa langsung fokus mengeksplorasi dan memodifikasi kode melalui editor kelas profesional.
 
 <!-- 📸 TEMPAT SCREENSHOT 2: Taruh gambar fokus pada teks editor saat menampilkan fitur autocompletion / sintaks warna di sini -->
-![Monaco Editor Feature](https://placehold.co/800x450/2d3748/ffffff?text=Screenshot+Fitur+Auto-complete+Editor)
+![Monaco Editor Code Input](https://placehold.co/800x450/2d3748/ffffff?text=Screenshot+Proses+Coding+dengan+Autocompletion)
 
-*   **Informasi Penting:** Dilengkapi dengan fitur *real-time autocompletion*, *syntax highlighting*, dan pencegahan reset layar otomatis (*state synchronization*) saat pengguna berpindah tab kode.
+*   **Cara Menggunakan:**
+    1. Pilih tab file (`index.html`, `style.css`, atau `script.js`) di atas editor untuk berpindah konteks.
+    2. Mulai ketik kode kamu; fitur *intelligence autocompletion* akan otomatis memberikan saran kode.
+    3. Hasil ketikan akan langsung di-render secara *real-time* di panel *Live Preview* tanpa perlu melakukan *refresh* halaman secara manual.
 
-### 3. Fitur Inspeksi Elemen Instan (Instant Element Inspector) — *Fitur Andalan*
-Mekanisme *debugging* interaktif yang memetakan komponen visual hasil render langsung kembali ke baris kode sumbernya secara instan.
+### 3. Mengaktifkan Mode Inspeksi Elemen Instan (Instant Element Inspector)
+Jika pengguna ingin tahu baris kode mana yang menghasilkan elemen visual tertentu pada hasil render, mereka dapat menggunakan fitur andalan ini.
 
-<!-- 📸 TEMPAT SCREENSHOT 3: Taruh GIF/Gambar yang menunjukkan kursor mengklik elemen di preview dan kursor kode di editor otomatis berpindah ke baris yang sesuai -->
-![Instant Element Inspector](https://placehold.co/800x450/2d3748/ffffff?text=Screenshot/GIF+Fitur+Inspect+Elemen+Instan)
+<!-- 📸 TEMPAT SCREENSHOT 3: Taruh GIF/Gambar yang menunjukkan kursor mengklik tombol "Inspect", lalu mengarah ke preview -->
+![Activating Inspect Mode](https://placehold.co/800x450/2d3748/ffffff?text=Screenshot/GIF+Mengaktifkan+Tombol+Inspect+Mode)
 
-*   **Informasi Penting:** Menyelesaikan masalah klasik pelajar frontend yang sering kesulitan melacak posisi baris kode dari komponen visual yang sedang mereka lihat di layar.
+*   **Cara Menggunakan:**
+    1. Klik tombol **"Inspect"** (ikon target/kursor) pada panel kontrol untuk beralih ke **Inspect Mode**.
+    2. Setelah mode aktif, gerakkan kursor masuk ke dalam panel *Live Preview*.
+    3. Klik langsung pada elemen UI yang ingin diperiksa (misal: sebuah tombol atau gambar).
+    4. Sistem akan otomatis memindahkan kursor teks di Monaco Editor dan menyorot (*highlight*) baris kode sumber asli dari elemen tersebut secara instan.
+
+### 4. Visualisasi dengan Elemen Highlight (Element Border Highlight)
+Untuk mempermudah navigasi visual selama proses inspeksi, platform dilengkapi dengan deteksi batas elemen yang interaktif.
+
+<!-- 📸 TEMPAT SCREENSHOT 4: Taruh gambar/GIF saat kursor hovering di preview dan muncul border highlight berwarna biru/hijau pada elemen tersebut -->
+![Element Highlight Demo](https://placehold.co/800x450/2d3748/ffffff?text=Screenshot+Efek+Highlight+Border+pada+Elemen+UI)
+
+*   **Cara Menggunakan:**
+    1. Pastikan **Inspect Mode** masih dalam kondisi aktif.
+    2. Lakukan *hover* (arahkan kursor tanpa mengklik) di atas elemen-elemen yang ada di panel *Live Preview*.
+    3. Elemen yang sedang ditunjuk akan otomatis memunculkan kotak pembatas (*border highlight color*) secara *real-time* untuk memberikan indikasi visual struktur HTML sebelum pengguna memutuskan untuk mengkliknya.
 
 ---
 
