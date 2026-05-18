@@ -5,7 +5,7 @@
 
 FrontEndForge adalah platform coding workspace berbasis web tanpa konfigurasi (*zero-setup*) yang dirancang khusus untuk membantu *frontend learners* melompati hambatan instalasi lingkungan lokal (*local environment*). Platform ini mengintegrasikan editor kode canggih dengan fitur inspeksi elemen instan untuk mempercepat proses pembelajaran dan meningkatkan keterampilan teknis secara praktis.
 
-<img width="587" height="272" alt="image" src="https://github.com/user-attachments/assets/5f35f141-3c9b-4240-9146-1a9c4a26f075" />
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/5f35f141-3c9b-4240-9146-1a9c4a26f075" />
 
 ---
 
@@ -17,7 +17,7 @@ Berikut adalah panduan langkah demi langkah cara menggunakan fitur interaktif di
 Untuk memulai, pengguna tidak perlu bingung harus menulis apa dari awal. Platform menyediakan berbagai kurasi proyek terpandu untuk meningkatkan skill.
 
 <!-- 📸 TEMPAT SCREENSHOT 1: Taruh gambar daftar menu template proyek atau modal pilihan preset di sini -->
-![Guided Learning Projects](https://placehold.co/800x450/2d3748/ffffff?text=Screenshot+Pilihan+Proyek+Terpandu)
+!<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/5623e6e4-aa0a-401e-ba2c-f8e593497c64" />
 
 *   **Cara Menggunakan:**
     1. Klik tombol **"Templates"** atau **"Projects"** pada top bar/sidebar.
@@ -28,7 +28,7 @@ Untuk memulai, pengguna tidak perlu bingung harus menulis apa dari awal. Platfor
 Setelah proyek dimuat, pengguna bisa langsung fokus mengeksplorasi dan memodifikasi kode melalui editor kelas profesional.
 
 <!-- 📸 TEMPAT SCREENSHOT 2: Taruh gambar fokus pada teks editor saat menampilkan fitur autocompletion / sintaks warna di sini -->
-![Monaco Editor Code Input](https://placehold.co/800x450/2d3748/ffffff?text=Screenshot+Proses+Coding+dengan+Autocompletion)
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/9afa7f7e-e050-42dc-b018-8595253d3af6" />
 
 *   **Cara Menggunakan:**
     1. Pilih tab file (`index.html`, `style.css`, atau `script.js`) di atas editor untuk berpindah konteks.
@@ -39,7 +39,8 @@ Setelah proyek dimuat, pengguna bisa langsung fokus mengeksplorasi dan memodifik
 Jika pengguna ingin tahu baris kode mana yang menghasilkan elemen visual tertentu pada hasil render, mereka dapat menggunakan fitur andalan ini.
 
 <!-- 📸 TEMPAT SCREENSHOT 3: Taruh GIF/Gambar yang menunjukkan kursor mengklik tombol "Inspect", lalu mengarah ke preview -->
-![Activating Inspect Mode](https://placehold.co/800x450/2d3748/ffffff?text=Screenshot/GIF+Mengaktifkan+Tombol+Inspect+Mode)
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/2540d196-e8b3-49e5-b744-68f64fd57f2f" />
+
 
 *   **Cara Menggunakan:**
     1. Klik tombol **"Inspect"** (ikon target/kursor) pada panel kontrol untuk beralih ke **Inspect Mode**.
@@ -47,16 +48,16 @@ Jika pengguna ingin tahu baris kode mana yang menghasilkan elemen visual tertent
     3. Klik langsung pada elemen UI yang ingin diperiksa (misal: sebuah tombol atau gambar).
     4. Sistem akan otomatis memindahkan kursor teks di Monaco Editor dan menyorot (*highlight*) baris kode sumber asli dari elemen tersebut secara instan.
 
-### 4. Visualisasi dengan Elemen Highlight (Element Border Highlight)
-Untuk mempermudah navigasi visual selama proses inspeksi, platform dilengkapi dengan deteksi batas elemen yang interaktif.
+### 4. Memantau Output via Console Log (Virtual Console Log Panel)
+Untuk mempermudah proses pelacakan variabel dan pesan error dari JavaScript, platform ini menyediakan panel log khusus yang tertanam langsung di dalam UI aplikasi.
 
-<!-- 📸 TEMPAT SCREENSHOT 4: Taruh gambar/GIF saat kursor hovering di preview dan muncul border highlight berwarna biru/hijau pada elemen tersebut -->
-![Element Highlight Demo](https://placehold.co/800x450/2d3748/ffffff?text=Screenshot+Efek+Highlight+Border+pada+Elemen+UI)
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/aa9ef5a0-07bc-4dc0-bba5-bfcb7419ad30" />
+
 
 *   **Cara Menggunakan:**
-    1. Pastikan **Inspect Mode** masih dalam kondisi aktif.
-    2. Lakukan *hover* (arahkan kursor tanpa mengklik) di atas elemen-elemen yang ada di panel *Live Preview*.
-    3. Elemen yang sedang ditunjuk akan otomatis memunculkan kotak pembatas (*border highlight color*) secara *real-time* untuk memberikan indikasi visual struktur HTML sebelum pengguna memutuskan untuk mengkliknya.
+    1. Tulis kode perintah cetak seperti `console.log("Hello World")` atau lacak variabel di dalam berkas `script.js`.
+    2. Buka atau perhatikan panel **"Console"** yang terletak di bagian bawah *Live Preview*.
+    3. Seluruh output log, pesan peringatan (*warning*), hingga pesan error dari kode JavaScript kamu akan tercetak secara rapi di sana, mirip dengan DevTools browser bawaan namun lebih ramah pemula.
 
 ---
 
